@@ -19,3 +19,12 @@ Enter the height: 3
 """
 
 #write your code here 
+
+base = int(input("Enter the base: "))
+height = int(input("Enter the height: "))
+
+
+for row in range(0, height):
+    for col in range(0, base):
+      print("*", end="")
+    print()

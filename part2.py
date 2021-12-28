@@ -8,3 +8,15 @@ For example, if the user types in 4, the program should print 100 (since 1^3 + 2
 """
 
 #write your code here
+
+number = int(input("Enter a positive integer: "))
+
+product = 0
+
+for i in range(1, number + 1):
+  x = i**3
+  product = product + x
+
+print(product)
+
+
